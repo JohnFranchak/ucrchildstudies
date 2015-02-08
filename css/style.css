@@ -1,0 +1,181 @@
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #ECF0F1;
+}
+
+#header
+{
+	background: #ECF0F1;
+	padding: 20px;
+}
+
+#header h1
+{
+	 font-size:50px;
+	 margin: 0; 
+	 font-family: 'Montserrat', sans-serif;
+	 color:#E74C3C;
+}
+
+
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #7ABCDB;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size:24px;
+	float: left;
+	padding: 5px 10px;
+	color: #2C3E50;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #E74C3C; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	background: #ECF0F1;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	display: inline;
+}
+
+img {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
+
+p 
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+}
+
+#content h2
+{ 
+margin: 0; 
+font-family: 'Cabin Condensed', sans-serif;
+font-size: 28px;
+color: #2C3E50;
+/*text-indent: -1em;*/
+}
+
+#content li
+{
+	list-style: none;
+	line-height:30px;
+	font-size:24px;
+}
+
+#content ul
+{
+	 margin-top: 15px;
+	 text-indent: -1em;
+}
+
+span.heavy {font-weight:700; color:#E74C3C}
+
+#aside
+{
+	float: right;
+	width: 26%;
+	padding: 35px 0;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#aside h3 
+{ 
+	font-family: 'Cabin Condensed', sans-serif;
+	color: #2C3E50;
+	margin: 0; 
+}
+
+#aside h2
+{ 
+margin: 0; 
+font-family: 'Cabin Condensed', sans-serif;
+font-size: 28px;
+color: #2C3E50;
+/*text-indent: -1em;*/
+}
+
+#aside li
+{
+	list-style: none;
+	font-size:24px;
+    /*text-indent: -2em;*/
+}
+
+#aside ul
+{
+	 margin-top: 15px;
+	 text-indent: -1em;
+}
+
+#participate
+{
+	/*margin: 0 auto;*/
+	width: 80%;
+	background: #7ABCDB;
+	padding: 0 px;
+}
+
+#participate a
+{
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 28px;
+	text-decoration:none;
+	display:block;
+	color: #2C3E50;
+	text-align:center;
+	padding: 10px;
+}
+
+#participate a:hover { background: #E74C3C; }
+
+#footer
+{
+	clear: left;
+	background: #7ABCDB;
+	color: #2C3E50;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size:24px;
+	text-align: left;
+	padding: 15px;
+	height: 1%;
+}
+
+#footer a
+{
+	text-decoration: none;
+	color: 	#B53C2F;
+}
