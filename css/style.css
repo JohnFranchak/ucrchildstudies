@@ -92,6 +92,22 @@ color: #2C3E50;
 /*text-indent: -1em;*/
 }
 
+#content h3
+{ 
+margin: 0; 
+font-family: 'Montserrat', sans-serif;
+color:#E74C3C;
+font-size: 18px;
+}
+
+#content a
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	text-decoration: none;
+	color: 	#B53C2F;
+}
+
 #content li
 {
 	list-style: none;
