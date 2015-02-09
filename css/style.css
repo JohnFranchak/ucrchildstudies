@@ -68,12 +68,13 @@
 	clear: left;
 	float: left;
 	width: 60%;
+	max-width:650px;
 	padding: 20px 0;
 	margin: 0 0 0 4%;
 	display: inline;
 }
 
-img.header1 {width:100px; height:auto; margin-left:110px; margin-bottom:-37px; }
+img.header1 {width:100px; height:auto; margin-left:95px; margin-bottom:-37px; }
 img.header2 {width:100px; height:auto; margin-left:0px; margin-bottom:-37px; }
 img.top {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
 
