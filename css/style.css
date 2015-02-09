@@ -54,6 +54,8 @@
 
 #navigation li a:hover { background: #E74C3C; }
 
+#navigation li a.current { background: #E74C3C; }
+
 #content-container
 {
 	float: left;
@@ -71,7 +73,9 @@
 	display: inline;
 }
 
-img {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
+img.header1 {width:100px; height:auto; margin-left:110px; margin-bottom:-37px; }
+img.header2 {width:100px; height:auto; margin-left:0px; margin-bottom:-37px; }
+img.top {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
 
 p 
 {
