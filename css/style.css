@@ -8,17 +8,20 @@
 #header
 {
 	background: #ECF0F1;
-	padding: 20px;
+	padding: 15px;
 }
 
 #header h1
 {
-	 font-size:48px;
+	 font-size:46px;
 	 margin: 0; 
 	 font-family: 'Montserrat', sans-serif;
 	 color:#E74C3C;
 }
 
+
+img.header1 {width:90px; height:auto; margin-left:20px; margin-bottom:-32px; }
+img.header2 {width:100px; height:auto; margin-left:0px; margin-bottom:-32px; }
 
 #navigation
 {
@@ -73,8 +76,6 @@
 	display: inline;
 }
 
-img.header1 {width:90px; height:auto; margin-left:90px; margin-bottom:-37px; }
-img.header2 {width:100px; height:auto; margin-left:0px; margin-bottom:-37px; }
 img.top {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
 
 p 
