@@ -76,7 +76,7 @@ img.header2 {width:100px; height:auto; margin-left:0px; margin-bottom:-32px; }
 	display: inline;
 }
 
-img.top {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
+img.top {width:600px; height:auto; box-shadow:5px 5px 1px #888888; margin-left:10px;}
 
 p 
 {
@@ -127,9 +127,9 @@ span.heavy {font-weight:700; color:#E74C3C}
 #aside
 {
 	float: right;
-	width: 26%;
+	width: 24%;
 	padding: 35px 0;
-	margin: 0 3% 0 0;
+	margin: 0 6% 0 0;
 	display: inline;
 }
 
@@ -146,6 +146,7 @@ margin: 0;
 font-family: 'Cabin Condensed', sans-serif;
 font-size: 28px;
 color: #2C3E50;
+text-align: center
 /*text-indent: -1em;*/
 }
 
@@ -153,7 +154,7 @@ color: #2C3E50;
 {
 	list-style: none;
 	font-size:24px;
-    /*text-indent: -2em;*/
+    text-align: left;
 }
 
 #aside ul
@@ -165,7 +166,7 @@ color: #2C3E50;
 #participate
 {
 	/*margin: 0 auto;*/
-	width: 80%;
+	width: 100%;
 	background: #7ABCDB;
 	padding: 0 px;
 }
