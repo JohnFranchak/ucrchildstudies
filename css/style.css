@@ -150,6 +150,16 @@ text-align: center
 /*text-indent: -1em;*/
 }
 
+#aside h4
+{ 
+margin: 0; 
+font-family: 'Cabin Condensed', sans-serif;
+font-size: 20px;
+color: #E74C3C;
+text-align: center
+/*text-indent: -1em;*/
+}
+
 #aside li
 {
 	list-style: none;
