@@ -21,6 +21,38 @@
             ga('send', 'pageview');
 
         </script>
+        
+        <script language="JavaScript1.2">
+
+            var howOften = 5; //number often in seconds to rotate
+            var current = 0; //start the counter at 0
+            var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+            // place your images, text, etc in the array elements here
+            var items = new Array();
+                items[0]="<img src='img/eyetrack2.jpg' width='600px' height='auto' box-shadow='5px 5px 1px #888888'>"; //a linked image
+                items[1]="<img src='img/remoteet.jpg' width='600px' height='auto'>"; //a linked image
+            function rotater() {
+                document.getElementById("placeholder").innerHTML = items[current];
+                current = (current==items.length-1) ? 0 : current + 1;
+                setTimeout("rotater()",howOften*1000);
+            }
+
+            function rotater() {
+                if(document.layers) {
+                    document.placeholderlayer.document.write(items[current]);
+                    document.placeholderlayer.document.close();
+                }
+                if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+                    if(document.all)
+                        placeholderdiv.innerHTML=items[current];
+
+                current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+                setTimeout("rotater()",howOften*1000);
+            }
+            window.onload=rotater;
+            //-->
+            </script>
 		
     </head>
     
@@ -60,8 +92,9 @@
 			
 			<br>
 			
-			<img src="img/eyetrack2.jpg" class="top">
-			
+			<!--<img src="img/eyetrack2.jpg" class="top">-->
+			<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+            
 			<p>
 				<a><span class="heavy">Child Studies @ UC Riverside</span></a> is a group of research laboratories at the UCR Department of Psychology. Each laboratory specializes in a different area of research, but we all share a common interest: understanding how infants and children develop. This work would not be possible without support from the community—that's why we need your help! </p>
 				
