@@ -84,6 +84,37 @@ p
 	font-size:18px;
 }
 
+
+
+.image-container {
+  position: relative;
+  padding-bottom: 66.78082192%; /* ratio of image height to width */
+  height: 0;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.image-container {
+  position: relative;
+  padding-bottom: 66.650390625%; /* ratio of image height to width */
+  height: 0;
+  overflow: hidden;
+}
+ 
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 #content h2
 { 
 margin: 0; 
